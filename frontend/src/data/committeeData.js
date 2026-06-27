@@ -1,0 +1,103 @@
+export const mentorFeedbacks = [
+  {
+    id: 'fb1',
+    mentor: 'Dr. Mentor One',
+    mentorEmail: 'mentor@fpt.edu.vn',
+    groupId: 'SE1701',
+    groupName: 'Team Alpha',
+    project: 'SmartTeam PIMS',
+    student: 'Nguyễn Văn A',
+    milestone: 'Milestone 2 — Thiết kế hệ thống',
+    date: '08/06/2026',
+    rating: 'Good',
+    feedback:
+      'Phần kiến trúc tổng thể rõ ràng. Cần bổ sung diagram sequence cho luồng đăng nhập và phân quyền.',
+  },
+  {
+    id: 'fb2',
+    mentor: 'Dr. Mentor One',
+    mentorEmail: 'mentor@fpt.edu.vn',
+    groupId: 'SE1701',
+    groupName: 'Team Alpha',
+    project: 'SmartTeam PIMS',
+    student: 'Trần Thị B',
+    milestone: 'Milestone 2 — Thiết kế hệ thống',
+    date: '08/06/2026',
+    rating: 'Needs Improvement',
+    feedback:
+      'Database schema chưa chuẩn hóa đủ. Nên tách bảng users và profiles, thêm ràng buộc khóa ngoại.',
+  },
+  {
+    id: 'fb3',
+    mentor: 'Dr. Mentor Two',
+    mentorEmail: 'mentor2@fpt.edu.vn',
+    groupId: 'SE1704',
+    groupName: 'Team Nexus',
+    project: 'EcoTrack Mobile',
+    student: 'Hoàng Văn E',
+    milestone: 'Midterm Report',
+    date: '07/06/2026',
+    rating: 'Excellent',
+    feedback:
+      'Báo cáo giữa kỳ đầy đủ, có số liệu thử nghiệm và biểu đồ minh họa rõ ràng.',
+  },
+  {
+    id: 'fb4',
+    mentor: 'Dr. Mentor Two',
+    mentorEmail: 'mentor2@fpt.edu.vn',
+    groupId: 'AI1604',
+    groupName: 'Team Vision',
+    project: 'EduChain Ledger',
+    student: 'Vũ Văn H',
+    milestone: 'Sprint Review 3',
+    date: '06/06/2026',
+    rating: 'At Risk',
+    feedback:
+      'Tiến độ chậm so với kế hoạch. Nhóm cần ưu tiên hoàn thiện smart contract trước khi làm UI.',
+  },
+];
+
+export const gradingSchedules = [
+  {
+    id: 'slot1',
+    date: '15/06/2026',
+    dayLabel: 'Thứ Hai, 15/06/2026',
+    room: 'P.301 — Tòa Alpha',
+    timeSlot: 'Ca 1: 08:00 — 10:30',
+    groupCount: 3,
+    committeeLead: 'Committee Member',
+    groups: [
+      { id: 'SE1701', name: 'Team Alpha', topic: 'SmartTeam PIMS', status: 'Scheduled' },
+      { id: 'SE1704', name: 'Team Nexus', topic: 'EcoTrack Mobile', status: 'Scheduled' },
+      { id: 'AI1604', name: 'Team Vision', topic: 'EduChain Ledger', status: 'Scheduled' },
+    ],
+  },
+  {
+    id: 'slot2',
+    date: '15/06/2026',
+    dayLabel: 'Thứ Hai, 15/06/2026',
+    room: 'P.302 — Tòa Alpha',
+    timeSlot: 'Ca 2: 13:30 — 16:00',
+    groupCount: 2,
+    committeeLead: 'Committee Member 2',
+    groups: [
+      { id: 'SE1802', name: 'Team Delta', topic: 'Fleet Management System', status: 'Scheduled' },
+      { id: 'AI1703', name: 'Team Bot', topic: 'NLP Chatbot', status: 'Scheduled' },
+    ],
+  },
+  {
+    id: 'slot3',
+    date: '16/06/2026',
+    dayLabel: 'Thứ Ba, 16/06/2026',
+    room: 'P.105 — Tòa Beta',
+    timeSlot: 'Ca 1: 08:00 — 10:30',
+    groupCount: 4,
+    committeeLead: 'Committee Member',
+    groups: [
+      { id: 'GD1705', name: 'Team Pixel', topic: 'Game Design Toolkit', status: 'Scheduled' },
+      { id: 'IB1502', name: 'Team Biz', topic: 'Business Plan Analytics', status: 'Scheduled' },
+      { id: 'SE1703', name: 'Team API', topic: 'E-Commerce API', status: 'Scheduled' },
+      { id: 'IA1501', name: 'Team Data', topic: 'Data Warehouse', status: 'Scheduled' },
+    ],
+  },
+];

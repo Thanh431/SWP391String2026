@@ -1,0 +1,30 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #f8faf9; /* Màu nền xám pha chút rêu nhạt nhẹ bẫng cực sang */
+  color: #333333;
+}
+
+/* Ép thanh ProgressBar dùng màu xanh lục bảo đồng bộ */
+.custom-progress-bar .progress-bar {
+  background-color: #1d8453 !important;
+  border-radius: 50px;
+}
+
+/* Nút dropdown ba chấm biến mất viền vi vu */
+.chart-dropdown::after {
+  display: none !important;
+}
+.chart-dropdown {
+  color: #a0aec0 !important;
+  padding: 4px !important;
+}
+.chart-dropdown:hover {
+  color: #4a5568 !important;
+}
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}

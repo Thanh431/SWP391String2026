@@ -1,0 +1,37 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules and build output at root or subfolders
+node_modules
+dist
+dist-ssr
+*.local
+tools
+
+# Frontend-specific ignore paths
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.env
+
+# Backend-specific ignore paths
+backend/target/
+backend/tools/
+backend/data/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
